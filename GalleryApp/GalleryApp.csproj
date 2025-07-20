@@ -60,8 +60,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)"/>
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0"/>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0"/>
+        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.100"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.8"/>
+        <PackageReference Include="System.Data.OleDb" Version="9.0.8"/>
+        <PackageReference Include="tlbimp-Microsoft.Search.Interop" Version="1.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="Platforms\Tizen\Main.cs"/>
     </ItemGroup>
 
 </Project>
